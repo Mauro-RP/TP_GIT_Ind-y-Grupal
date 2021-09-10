@@ -10,12 +10,13 @@ function Conjunto($n)
     }
     return $conjunto;
 }
-
 $enteros = Conjunto(200);
-$sum = 0;
-for ($i=0; $i < 200 ; $i++) 
+$sum=0;
+echo "Conjunto: ";
+foreach ($enteros as $ind => $valor)
 {
-    $sum+=$enteros[$i];
+echo $valor," / ";
+$sum+=$enteros[$ind];
 }
-echo "La suma de los numeros del conjunto es: ",$sum;
+echo "<br><br>La suma de los 200 numeros enteros es: ",$sum;
 ?>
