@@ -12,5 +12,9 @@ function Conjunto($n)
 }
 
 $enteros = Conjunto(200);
-
+$sum = 0;
+for ($i=0; $i < 200 ; $i++) 
+{
+    $sum+=$enteros[$i];
+}
 ?>
