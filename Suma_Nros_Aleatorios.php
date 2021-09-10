@@ -17,4 +17,5 @@ for ($i=0; $i < 200 ; $i++)
 {
     $sum+=$enteros[$i];
 }
+echo "La suma de los numeros del conjunto es: ",$sum;
 ?>
